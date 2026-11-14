@@ -1,0 +1,21 @@
+git init: Initialises a git repository in that folder
+
+git branch: lists branches, -M <name> renames current branch to <name>
+
+git commit -m <message>: creates a git commit with given message
+
+git add <files>: stages these files for committing
+
+git checkout: switch to another branch, -b also creates a branch
+
+git switch: switches to another git branch. Newer syntax
+
+git merge <branch>: merges <branch> into the current branch
+
+git log: shows the commit history 
+
+git reset: Undoes to a specific commit. HEAD~<number> goes back <number> commits back from current commit. --soft -> keeps the reset files in staging, --hard -> deletes the reset files
+
+git remote add <name> <url>: adds this url as a remote (github/gitlab etc) with the provided name
+
+git push: pushes local changes to a remote repository. -u sets upstream url.
